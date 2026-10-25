@@ -86,6 +86,76 @@ The dataset includes:
 - Global Sales But I have only included 4 and "Global Sales" as Output
 
 
+---
+
+
+---
+
+## 📚 Prediction History Management
+
+The **Prediction History Management** feature enhances the Video Game Sales Prediction application by maintaining a record of previously generated sales predictions. It allows users to review past prediction results along with the game details entered during prediction.
+
+---
+
+## ✨ Key Features
+
+- 📋 Maintain a Record of Previous Predictions
+- 🎮 Store Game Attributes Used for Prediction
+- 📈 Save Predicted Global Sales Values
+- 🕒 Record Prediction Timestamps
+- 🔍 Review Previous Prediction Results
+- 🔄 Display Recent Predictions First
+
+---
+
+## ⚙️ Implementation Workflow
+
+1. Enter game details through the web interface.
+2. Predict Global Sales using the Random Forest Regressor.
+3. Store prediction details in the SQLite database.
+4. Retrieve and display previous predictions in a history table.
+5. Review past predictions with their game details and timestamps.
+
+---
+
+## 📊 Prediction History Output
+
+The module displays the following information:
+
+- Prediction ID
+- Gaming Platform
+- Release Year
+- Game Genre
+- Predicted Global Sales
+- Prediction Date and Time
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose |
+|------------|---------|
+| Python | Backend Logic |
+| Flask | Application Integration |
+| SQLite | Prediction Record Storage |
+| HTML | Table Structure |
+| CSS | User Interface Styling |
+
+---
+
+## 🎯 Benefits
+
+- Improves application usability.
+- Maintains a history of generated predictions.
+- Provides easy access to previous prediction results.
+
+
+---
+
+
+
+
+
 
 
 
